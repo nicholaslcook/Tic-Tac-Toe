@@ -375,6 +375,9 @@ $(document).ready(function () {
 				} else if ($('#br').text() == 'X' && $('#ml').text().length == 0) {
                     $('#ml').append('O');
                     playerTwoWin();
+				} else if ($('#bm').text() == 'X' && $('#ml').text().length == 0) {
+                    $('#ml').append('O');
+                    playerTwoWin();
             };
             };
 
